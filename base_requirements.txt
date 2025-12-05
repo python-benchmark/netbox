@@ -4,7 +4,7 @@ bleach
 
 # The Python web framework on which NetBox is built
 # https://github.com/django/django
-Django<4.1
+Django<4.2.27
 
 # Django middleware which permits cross-domain API requests
 # https://github.com/OttoYiu/django-cors-headers
@@ -134,3 +134,4 @@ tablib
 # Timezone data (required by django-timezone-field on Python 3.9+)
 # https://github.com/python/tzdata
 tzdata
+sqlparse>=0.5.4 # not directly required, pinned by Snyk to avoid a vulnerability
